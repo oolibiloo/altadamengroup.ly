@@ -1,0 +1,161 @@
+export interface Company {
+    id: number;
+    name: string;
+    nameEn: string;
+    field: string;
+    fieldEn: string;
+    description: string;
+    logo: string;
+    image: string;
+    slug: string;
+}
+
+export const companies: Company[] = [
+    {
+        id: 42,
+        name: "مجموعة الهدف",
+        nameEn: "Al-Hadaf Group",
+        field: "للمقاولات العامة و الاستثمار العقاري",
+        fieldEn: "General Contracting & Real Estate Investment",
+        description: "شركة مجموعة الهدف للمقاولات العامة والاستثمار العقاري هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال المقاولات العامة وتنفيذ المشاريع الإنشائية والاستثمار العقاري.",
+        logo: "/images/companies/logo-4.png",
+        image: "/images/companies/demo-10.jpg",
+        slug: "al-hadaf-group",
+    },
+    {
+        id: 40,
+        name: "شركة مراعي الوطن",
+        nameEn: "Marai Al-Watan",
+        field: "لاستيراد المواشي واللحوم",
+        fieldEn: "Import of Livestock & Meat",
+        description: "شركة مراعي الوطن لاستيراد المواشي واللحوم هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال استيراد المواشي واللحوم لتلبية احتياجات السوق المحلي.",
+        logo: "/images/companies/logo-2.png",
+        image: "/images/companies/demo-9.jpg",
+        slug: "marai-al-watan",
+    },
+    {
+        id: 41,
+        name: "شركة التضامن القائم",
+        nameEn: "Solidarity Based",
+        field: "لاستيراد مواد البناء",
+        fieldEn: "Import of Building Materials",
+        description: "شركة التضامن القائم لاستيراد مواد البناء هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال استيراد وتوزيع مواد البناء المختلفة.",
+        logo: "/images/companies/logo-3.png",
+        image: "/images/companies/demo-3.jpg",
+        slug: "solidarity-based",
+    },
+    {
+        id: 43,
+        name: "شركة ليبيا التضامن",
+        nameEn: "Libya Solidarity Shipping",
+        field: "للتوكيلات الملاحية",
+        fieldEn: "Shipping Agencies",
+        description: "شركة ليبيا التضامن للتوكيلات الملاحية هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال التوكيلات الملاحية وخدمات الشحن البحري.",
+        logo: "/images/companies/logo-5.png",
+        image: "/images/companies/demo-6.jpg",
+        slug: "libya-solidarity-shipping",
+    },
+    {
+        id: 45,
+        name: "شركة مجموعة الهدف",
+        nameEn: "Al-Tadamun Manufacturing",
+        field: "لتصنيع و تغليف مواد البناء",
+        fieldEn: "Manufacturing & Packaging of Building Materials",
+        description: "شركة مجموعة الهدف لتصنيع وتغليف مواد البناء هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال تصنيع وتغليف مواد البناء المتنوعة.",
+        logo: "/images/companies/logo-8.png",
+        image: "/images/companies/demo-2.jpg",
+        slug: "al-tadamun-manufacturing",
+    },
+    {
+        id: 46,
+        name: "شركة الرشيد",
+        nameEn: "Al-Rasheed Company",
+        field: "للتعهدات و التموين",
+        fieldEn: "Contracting & Supply",
+        description: "شركة الرشيد للتعهدات والتموين هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال التعهدات والتموين وتقديم الخدمات اللوجستية.",
+        logo: "/images/companies/logo-9.png",
+        image: "/images/companies/demo-1.jpg",
+        slug: "al-rasheed",
+    },
+    {
+        id: 47,
+        name: "شركة التايوتا الحديثة",
+        nameEn: "Modern Toyota Corporation",
+        field: "الحديثة - فردية",
+        fieldEn: "Individual",
+        description: "شركة التايوتا الحديثة هي إحدى الشركات التابعة لمجموعة التضامن القابضة.",
+        logo: "/images/companies/logo-10.png",
+        image: "/images/companies/demo-11.jpg",
+        slug: "modern-toyota",
+    },
+    {
+        id: 48,
+        name: "شركة حجر ليبيا",
+        nameEn: "Libya Stone Company",
+        field: "لصناعة الرخام",
+        fieldEn: "Marble Manufacturing",
+        description: "شركة حجر ليبيا لصناعة الرخام هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال صناعة وتصنيع الرخام بأنواعه المختلفة.",
+        logo: "/images/companies/logo-11.png",
+        image: "/images/companies/demo-12.jpg",
+        slug: "libya-stone",
+    },
+    {
+        id: 49,
+        name: "شركة ليبيا للمعادن",
+        nameEn: "Libya Metals Company",
+        field: "لجمع الخردة بجميع أنواعها وصهر وتشكيل المعادن",
+        fieldEn: "Scrap Collection & Metal Smelting",
+        description: "شركة ليبيا للمعادن لجمع الخردة بجميع أنواعها وصهر وتشكيل المعادن هي إحدى الشركات التابعة لمجموعة التضامن القابضة.",
+        logo: "/images/companies/logo-13.png",
+        image: "/images/companies/demo-13.jpg",
+        slug: "libya-metals",
+    },
+    {
+        id: 44,
+        name: "شركة التضامن الليبية",
+        nameEn: "Libyan Solidarity Heavy Transport",
+        field: "للنقل الثقيل",
+        fieldEn: "Heavy Transport",
+        description: "شركة التضامن الليبية للنقل الثقيل هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال النقل الثقيل والخدمات اللوجستية.",
+        logo: "/images/companies/logo-6.png",
+        image: "/images/companies/demo-4.jpg",
+        slug: "libyan-solidarity-transport",
+    },
+    {
+        id: 38,
+        name: "شركة التعاون الليبية",
+        nameEn: "Libyan Cooperation",
+        field: "لاستيراد الأجهزة الإلكترونية",
+        fieldEn: "Import of Electronic Devices",
+        description: "شركة التعاون الليبية لاستيراد الأجهزة الإلكترونية هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال استيراد وتوزيع الأجهزة الإلكترونية.",
+        logo: "/images/companies/logo-7.png",
+        image: "/images/companies/demo-7.jpg",
+        slug: "libyan-cooperation",
+    },
+    {
+        id: 50,
+        name: "شركة راس العلبة",
+        nameEn: "Ras Elba Company",
+        field: "للمطاحن والأعلاف",
+        fieldEn: "Fodder Manufacturing",
+        description: "شركة راس العلبة للمطاحن والأعلاف هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال المطاحن وتصنيع الأعلاف.",
+        logo: "/images/companies/logo-13.png",
+        image: "/images/companies/demo-14.jpg",
+        slug: "ras-elba",
+    },
+    {
+        id: 51,
+        name: "الشركة الليبية العالمية",
+        nameEn: "Libyan International Company",
+        field: "لصناعة المطابخ والأثاث",
+        fieldEn: "Kitchen & Furniture Manufacturing",
+        description: "الشركة الليبية العالمية لصناعة المطابخ والأثاث هي إحدى الشركات التابعة لمجموعة التضامن القابضة، تعمل في مجال صناعة المطابخ والأثاث بمختلف أنواعه.",
+        logo: "/images/companies/logo-15.png",
+        image: "/images/companies/demo-15.jpg",
+        slug: "libyan-international",
+    },
+];
+
+export function getCompanyBySlug(slug: string): Company | undefined {
+    return companies.find((c) => c.slug === slug);
+}
